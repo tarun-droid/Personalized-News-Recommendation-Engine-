@@ -1,0 +1,13 @@
+embedding_model: all-MiniLM-L6-v2
+use_tfidf_fallback: true
+top_k_retrieval: 10
+openai:
+  summarization: true
+  model: gpt-4o-mini
+  max_tokens: 120
+pipeline:
+  normalize_text: true
+  remove_stopwords: false
+ranking:
+  personalization_weight: 0.6
+  recency_weight: 0.4
