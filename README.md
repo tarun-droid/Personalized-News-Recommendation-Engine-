@@ -38,7 +38,3 @@ streamlit run app.py
 - configs.yaml — project configuration
 - sample_data.csv — small example dataset
 - requirements.txt — Python dependencies
-
-## Notes
-- This starter project is designed for small datasets and demo use. For production you should persist FAISS indexes to disk, handle incremental updates, and secure your OpenAI API key.
-- If you hit GPU/installation issues with sentence-transformers, consider using a smaller model or running in an environment with PyTorch preinstalled.
